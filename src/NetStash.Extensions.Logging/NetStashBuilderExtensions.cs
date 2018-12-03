@@ -6,15 +6,15 @@ namespace NetStash.Extensions.Logging
 {
     public static class NetStashBuilderExtensions
     {
-        public static ILoggingBuilder AddLogstash(this ILoggingBuilder builder)
+        public static ILoggingBuilder AddNetStash(this ILoggingBuilder builder)
         {
             builder.Services.AddSingleton<ILoggerProvider, NetStashLoggerProvider>();
             return builder;
         }
 
-        public static ILoggingBuilder AddLogstash(this ILoggingBuilder builder, Action<NetStashOptions> configure)
+        public static ILoggingBuilder AddNetStash(this ILoggingBuilder builder, Action<NetStashOptions> configure)
         {
-            builder.AddLogstash();
+            builder.AddNetStash();
             builder.Services.Configure(configure);
             return builder;
         }
