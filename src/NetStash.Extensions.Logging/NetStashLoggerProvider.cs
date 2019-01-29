@@ -7,7 +7,7 @@ using NetStash.Extensions.Logging.Infra;
 
 namespace NetStash.Extensions.Logging
 {
-    [ProviderAlias("Netstash")]
+    [ProviderAlias("NetStash")]
     public class NetStashLoggerProvider : ILoggerProvider
     {
         private bool _disposed;
@@ -40,7 +40,7 @@ namespace NetStash.Extensions.Logging
                 foreach (var item in additionalValues)
                     extra.Add(item.Key, item.Value);
 
-            _netStash.Log(GetNetStashLogLevel(level), message, exception, additionalValues);            
+            _netStash.Log(GetNetStashLogLevel(level), message, exception, extra);            
         }
 
         private NetStashLogLevel GetNetStashLogLevel(LogLevel level)
