@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8E4D8A35-716
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStash.Extensions.Logging", "src\NetStash.Extensions.Logging\NetStash.Extensions.Logging.csproj", "{9708FC63-A201-4EFD-96AB-F65AFD814289}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{5E4F5613-6179-41EB-9487-0010D8F3DC62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.WebApi", "samples\Samples.WebApi\Samples.WebApi.csproj", "{A7BB51F9-A423-43A0-8904-E67971C86B0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +36,21 @@ Global
 		{9708FC63-A201-4EFD-96AB-F65AFD814289}.Release|x64.Build.0 = Release|Any CPU
 		{9708FC63-A201-4EFD-96AB-F65AFD814289}.Release|x86.ActiveCfg = Release|Any CPU
 		{9708FC63-A201-4EFD-96AB-F65AFD814289}.Release|x86.Build.0 = Release|Any CPU
+		{A7BB51F9-A423-43A0-8904-E67971C86B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BB51F9-A423-43A0-8904-E67971C86B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BB51F9-A423-43A0-8904-E67971C86B0E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A7BB51F9-A423-43A0-8904-E67971C86B0E}.Debug|x64.Build.0 = Debug|Any CPU
+		{A7BB51F9-A423-43A0-8904-E67971C86B0E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A7BB51F9-A423-43A0-8904-E67971C86B0E}.Debug|x86.Build.0 = Debug|Any CPU
+		{A7BB51F9-A423-43A0-8904-E67971C86B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BB51F9-A423-43A0-8904-E67971C86B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BB51F9-A423-43A0-8904-E67971C86B0E}.Release|x64.ActiveCfg = Release|Any CPU
+		{A7BB51F9-A423-43A0-8904-E67971C86B0E}.Release|x64.Build.0 = Release|Any CPU
+		{A7BB51F9-A423-43A0-8904-E67971C86B0E}.Release|x86.ActiveCfg = Release|Any CPU
+		{A7BB51F9-A423-43A0-8904-E67971C86B0E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9708FC63-A201-4EFD-96AB-F65AFD814289} = {8E4D8A35-7162-457E-ACA0-35A5C53DD61F}
+		{A7BB51F9-A423-43A0-8904-E67971C86B0E} = {5E4F5613-6179-41EB-9487-0010D8F3DC62}
 	EndGlobalSection
 EndGlobal
